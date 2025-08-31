@@ -1,0 +1,10 @@
+.container {
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.content {
+  padding-top: 60px; /* Navbar hündürlüyü qədər boşluq */
+}

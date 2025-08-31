@@ -1,0 +1,43 @@
+$bg-color: #1f1f1f;
+$text-color: #e0e0e0;
+$hover-color: #00bcd4;
+$font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $bg-color;
+  padding: 10px 40px;
+  font-family: $font-stack;
+
+  .menu {
+    display: flex;
+    gap: 30px;
+
+    a {
+      color: $text-color;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+      transition: color 0.3s;
+
+      &:hover,
+      &.active {
+        color: $hover-color;
+      }
+    }
+  }
+
+  .icons {
+    a {
+      color: $text-color;
+      font-size: 30px;
+      transition: color 0.3s;
+
+      &:hover {
+        color: $hover-color;
+      }
+    }
+  }
+}

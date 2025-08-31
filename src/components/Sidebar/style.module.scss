@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+
+  .leftSidebar {
+    flex: 0 0 200px;
+  }
+
+  .mainContent {
+    flex: 1;
+    padding: 0 20px;
+  }
+
+  .rightSidebar {
+    flex: 0 0 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
