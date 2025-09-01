@@ -29,13 +29,13 @@ const ContactMenu = () => {
           </a>
         </li>
         <li style={{ '--index': 2 }}>
-          <a href="mailto:ulveeyyaniftiyeva@gmail.com" title="Email göndər">
+          <a href="mailto: ulveeyyaniftiyeva@gmail.com" title="Email göndər">
             <FaEnvelope />
           </a>
         </li>
         <li style={{ '--index': 1 }}>
           <a
-            href="https://linkedin.com/in/profilin"
+            href="https://www.linkedin.com/in/ulviyya-niftiyeva"
             target="_blank"
             rel="noopener noreferrer"
             title="LinkedIn"

@@ -41,3 +41,21 @@ $font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
   }
 }
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px 20px; // sağ-sol padding azaldılır
+
+    .menu {
+      gap: 15px; // linklər arasındakı məsafə azaldılır
+      a {
+        font-size: 16px; // mobil üçün bir az kiçildilir
+      }
+    }
+
+    .icons {
+      a {
+        font-size: 24px; // ikonlar mobil üçün bir az kiçildilir
+      }
+    }
+  }
+}

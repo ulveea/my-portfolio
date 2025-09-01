@@ -20,3 +20,26 @@
     }
   }
 }
+@media (max-width: 480px) {
+  .grid {
+    padding: 1rem; // padding mobil üçün azalır
+    gap: 1rem; // grid aralığı azalır
+
+    .card {
+      padding: 0.8rem; // card içi boşluq azalır
+
+      h3 {
+        font-size: 1rem; // başlıq ölçüsü kiçildilir
+      }
+
+      p {
+        font-size: 0.9rem; // təsvir ölçüsü kiçildilir
+      }
+
+      img {
+        border-radius: 4px; // kənar radius bir az kiçildilir
+      }
+    }
+  }
+}
+

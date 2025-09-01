@@ -71,3 +71,23 @@ $text-color: #000;
     opacity: 1;
   }
 }
+@media (max-width: 480px) {
+  .intro {
+    height: calc(100vh - 50px); // mobil üçün bir az kiçik
+    padding: 0 1rem;
+
+    .title {
+      font-size: 2rem; // başlıq kiçildilir
+    }
+
+    .subtitle {
+      font-size: 1.2rem; // altbaşlıq kiçildilir
+      margin-bottom: 1.5rem;
+    }
+
+    .cta {
+      padding: 0.6rem 1.2rem; // düymə kiçildilir
+      font-size: 0.9rem;
+    }
+  }
+}

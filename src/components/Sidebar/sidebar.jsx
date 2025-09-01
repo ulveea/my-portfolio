@@ -19,13 +19,9 @@ function Sidebar() {
       </div>
 
       <div className={styles.rightSidebar}>
-        <a href="mailto:email@example.com" target="_blank" rel="noopener noreferrer">
-          <i className="fa fa-envelope" />
-        </a>
-        <a href="https://github.com/username" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/ulveea" target="_blank" rel="noopener noreferrer">
           <i className="fa fa-github" />
         </a>
-        {/* Başqa contact iconlar */}
       </div>
     </div>
   );
