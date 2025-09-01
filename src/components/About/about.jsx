@@ -2,12 +2,12 @@ import React from "react";
 import styles from "./style.module.scss";
 
 const icons = [
-  { name: "React", src: "/public/react.svg", alt: "React" },
-  { name: "JavaScript", src: "/public/javascript.svg", alt: "JavaScript" },
-  { name: "TypeScript", src: "/public/typescript.svg", alt: "TypeScript" },
-  { name: "Tailwind CSS", src: "/public/tailwind.svg", alt: "Tailwind CSS" },
-  { name: "HTML5", src: "/public/html5.svg", alt: "HTML5" },
-  { name: "CSS3", src: "/public/css.svg", alt: "CSS3" },
+  { name: "React", src: "/react.svg", alt: "React" },
+  { name: "JavaScript", src: "/javascript.svg", alt: "JavaScript" },
+  { name: "TypeScript", src: "/typescript.svg", alt: "TypeScript" },
+  { name: "Tailwind CSS", src: "/tailwind.svg", alt: "Tailwind CSS" },
+  { name: "HTML5", src: "/html5.svg", alt: "HTML5" },
+  { name: "CSS3", src: "/css.svg", alt: "CSS3" },
 ];
 
 const About = () => (
